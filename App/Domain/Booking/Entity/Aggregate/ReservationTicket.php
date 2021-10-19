@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Domain\Booking\Aggregate;
+namespace App\Domain\Booking\EntityAggregate;
 
-use App\Domain\Booking\Entity\Client;
-use App\Domain\Booking\ValueObject\Tickets;
+use App\Domain\Booking\Entity\Entity\Client;
+use App\Domain\Booking\Entity\ValueObject\Tickets;
 
 class ReservationTicket
 {

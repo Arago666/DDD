@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Domain\Booking\TransferObject;
+namespace App\Domain\Booking\Entity\TransferObject;
 
-use App\Domain\Booking\Entity\Client;
+use App\Domain\Booking\Entity\Entity\Client;
 
 class ClientFactory
 {

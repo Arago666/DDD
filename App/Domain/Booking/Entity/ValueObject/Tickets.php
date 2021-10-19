@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Domain\Booking\ValueObject;
+namespace App\Domain\Booking\Entity\ValueObject;
 
-use App\Domain\Booking\Entity\MovieSession;
+use App\Domain\Booking\Entity\Entity\MovieSession;
 use \Exception;
 
 class Tickets

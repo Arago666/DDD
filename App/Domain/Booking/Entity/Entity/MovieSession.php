@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Domain\Booking\Entity;
+namespace App\Domain\Booking\Entity\Entity;
 
 class MovieSession
 {
