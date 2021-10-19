@@ -2,19 +2,24 @@
 
 namespace App\Domain\Booking\Entity;
 
-use App\Domain\Booking\ValueObject\Name;
-use App\Domain\Booking\ValueObject\Phone;
-
 class Client
 {
     private string $id;
-    private Name $name;
-    private Phone $phone;
+    private string $name;
+    private string $phone;
 
-    public function __construct(string $id, Name $name, Phone $phone)
+    public function setId(string $id): void
     {
         $this->id = $id;
+    }
+
+    public function setName(string $name): void
+    {
         $this->name = $name;
+    }
+
+    public function setPhone(string $phone): void
+    {
         $this->phone = $phone;
     }
 }

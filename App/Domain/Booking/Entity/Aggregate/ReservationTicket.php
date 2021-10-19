@@ -19,10 +19,7 @@ class ReservationTicket
 
     public function addTickets(Tickets $tickets): void
     {
-        //TODO проверить, что необходимое количество билетов есть
         $this->tickets->push($tickets);
-        //TODO уменьшить количество свободных мест
-//        $this->tickets->movieSession->quantityFreeTickets = $this->tickets->movieSession->quantityFreeTickets - $this->tickets->quantity;
+        $this->tickets->getMovieSession()->reduceQuantityFreeTickets($tickets->getQuantity());
     }
-
 }

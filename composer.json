@@ -1,0 +1,16 @@
+{
+    "name": "manaenkov/ddd",
+    "autoload": {
+        "psr-4": {
+            "Services\\": "services",
+            "App\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artem Manaenkov",
+            "email": "art.manaenkov@gmail.com"
+        }
+    ],
+    "require": {}
+}
