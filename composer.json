@@ -2,7 +2,6 @@
     "name": "manaenkov/ddd",
     "autoload": {
         "psr-4": {
-            "Services\\": "services",
             "App\\": "app"
         }
     },
@@ -12,5 +11,7 @@
             "email": "art.manaenkov@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "ramsey/uuid": "^4.2"
+    }
 }
